@@ -1,0 +1,102 @@
+body {
+    background-color: #cecece;
+    border-color: #313131;
+    border-width: 10px;
+    font-family: "Nunito Sans" , sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 1200px;
+  }
+  
+  .column {
+    float: left;
+    min-width: 300px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .column-left {
+    flex: 30%;
+  }
+  
+  .column-right {
+    flex: 70%;
+    min-width: 600px;
+    margin-left: 50px;
+  }
+  
+  #Artist {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    top: 20px;
+    left: 10px;
+  }
+  
+  #Artwork {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    min-width: 220px;
+    top: 70px;
+    padding-left: 20px;
+    padding-top: 150px;
+  }
+  
+  #description {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    top: 100px;
+    left: 20px;
+    min-width: 280px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  
+  #form-comment {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 35px;
+    padding-bottom: 20px;
+  }
+  
+  
+  #heart {
+    width: 25%;
+  }
+  
+  .arrow {
+    margin: 10px;
+    width: 3%;
+    min-width: 35px;
+  }
+  
+  .div-arrow {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 35px;
+  }
+  
+  #image {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+  }
